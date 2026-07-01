@@ -1,0 +1,12 @@
+# Linux kernel module build artifacts
+*.ko
+*.mod
+*.mod.c
+*.o
+.*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+.clangd
+c_cpp_properties.json
+settings.json
