@@ -6,7 +6,7 @@ MODULE_NAME := procscope
 # procfs.o: 负责procfs文件展示
 # chrdev.o: 负责注册字符设备及其操作函数
 # ioctl.o: 负责设备字符文件的ioctl.o命令
-$(MODULE_NAME)-y := main.o procfs.o
+$(MODULE_NAME)-y := main.o procfs.o chrdev.o ioctl.o
 
 # 告诉 Kbuild 将 procscope.o 作为外部模块目标进行构建。
 obj-m := $(MODULE_NAME).o
